@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(240, 240, 240);
+}
+header {
+  background: url(./imgs/screen.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.start-btn button {
+  background-color: rgb(255, 143, 162);
+  padding: 15px;
+  border: 0;
+  font-size: 25px;
+  width: 150px;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 30px;
+  border-radius: 70px;
+  font-weight: 600;
+  box-shadow: 1px 10px 10px palevioletred;
+}
+.start-btn button:hover {
+  background-color: pink;
+}
+.start-btn a {
+  text-decoration: none;
+  color: white;
+}
+.logo1 img {
+  width: 50px;
+}
+.logo {
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+.searchinout {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  width: 230px;
+  border-radius: 10px;
+}
+.searchinout input {
+  border: 0;
+}
+.searchinout {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+}
+.serachicon1 {
+  background-color: white;
+  padding: 10px;
+  width: 50px;
+  border-radius: 9px;
+  position: absolute;
+  left: 290px;
+  top: 1px;
+  font-size: 20px;
+  top: 72px;
+}
+.product1 img {
+  width: 110px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.product2 {
+  background-color: white;
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+
+  padding: 15px;
+}
+.product2 {
+  font-size: 10px;
+  line-height: 20px;
+}
+.ptotxt {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.ptotxt h1 {
+  font-size: 17px;
+  padding-top: 10px;
+}
+.creem1 {
+  justify-content: center;
+  text-align: center;
+}
+.creem1 img {
+  width: 400px;
+  justify-content: center;
+}
+.creem2 img {
+  position: absolute;
+  top: -1px;
+  width: 120px;
+  justify-content: center;
+  text-align: center;
+  right: 145px;
+  top: 100px;
+}
+.logo2 {
+  font-size: 30px;
+}
+.compani img {
+  width: 40px;
+}
+.companis {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.compani {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+.companis :hover {
+  background-color: rgba(65, 65, 255, 0.678);
+  color: white;
+}
+.cart1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  height: 170px;
+}
+.cart2 h2 {
+  padding-bottom: 16px;
+}
+.cart3 {
+  font-size: 40px;
+}
+.add {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+  gap: 50px;
+}
+.add2 button {
+  padding: 10px;
+  border: 0;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-top: -12px;
+  width: 120px;
+}
+.add2 button:hover {
+  background-color: rgb(66, 62, 62);
+  color: rgb(255, 255, 255);
+}
+.logo {
+  font-size: 25px;
+}
+.creem3 {
+  justify-content: center;
+  text-align: center;
+}
+.creem3 img {
+  width: 400px;
+  justify-content: center;
+}
+.creem4 img {
+  position: absolute;
+  width: 200px;
+  margin-top: -250px;
+  right: 100px;
+}
+.creem5 img {
+  position: absolute;
+  width: 270px;
+  margin-top: -250px;
+  right: 80px;
+  margin-top: -300px;
+}
+.creem6 img {
+  position: absolute;
+  width: 270px;
+  margin-top: -250px;
+  right: 80px;
+  margin-top: -320px;
+}
